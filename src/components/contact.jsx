@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser'
 import { IconContext } from "react-icons";
 import { BiWorld } from "react-icons/bi";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 export default function Contact() {
     const form = useRef();
@@ -44,17 +45,15 @@ export default function Contact() {
                         <div className="flex flex-col gap-4 mb-8">
                             <IconContext.Provider value={{ size: "1.5rem" }}>
                                 <div className="flex flex-col justify-between gap-5 p-2 text-white">
-                                    <a href="https://github.com/ahlamelasseli">
-                                        <FaGithub className="hover:text-[#A27B5C] transition-colors duration-300" />
+                                    <a className="flex gap-2" href="https://github.com/ahlamelasseli">
+                                        <FaGithub className="hover:text-[#413933] transition-colors duration-300" /> https://github.com/ahlamelasseli
                                     </a>
-                                    <a href="https://www.instagram.com/ahlamelasseli/">
-                                        <FaInstagram className="hover:text-[#A27B5C] transition-colors duration-300" />
+                                    <a className="flex gap-2" href="">
+                                       <MdOutlineMailOutline className="hover:text-[#A27B5C] transition-colors duration-300" />
+                                       ahlamelasseli@gmail.com
                                     </a>
-                                    <a href="https://www.facebook.com/share/1CYttCYopq/?mibextid=wwXIfr">
-                                        <FaFacebook className="hover:text-[#A27B5C] transition-colors duration-300" />
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/ahlam-elasseli-16717b353/">
-                                        <FaLinkedin className="hover:text-[#A27B5C] transition-colors duration-300" />
+                                    <a className="flex gap-2" href="https://www.linkedin.com/in/ahlam-elasseli-16717b353/">
+                                        <FaLinkedin className="hover:text-[#A27B5C] transition-colors duration-300" />https://www.linkedin.com/in/ahlam-elasseli
                                     </a>
                                 </div>
                             </IconContext.Provider>
@@ -124,7 +123,7 @@ export default function Contact() {
                 </div>
             </div>
 
-            <div className="vertical-line">
+            <div className="vertical-line  hidden sm:block">
                 <div className="dot top-1/4"></div>
                 <div className="dot top-1/2"></div>
                 <div className="dot top-3/4"></div>

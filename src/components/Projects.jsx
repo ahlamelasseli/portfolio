@@ -6,7 +6,7 @@ export default function Projects() {
       title: "EasyFolio",
       image: images.easyfolio,
       technologies: ["HTML", "CSS"],
-      liveUrl: "#",
+      liveUrl: "https://ahlamelasseli.github.io/ahlamelasseli_projet_final_css_html/",
       githubUrl: "https://github.com/ahlamelasseli/ahlamelasseli_projet_final_css_html.git"
     },
     {
@@ -14,15 +14,24 @@ export default function Projects() {
       title: "QuickStart",
       image: images.quickstart,
       technologies: ["HTML", "CSS"],
-      liveUrl: "#",
-      githubUrl: "https://elroumaissaa-aalam.github.io/QuickStart/"
+      liveUrl: "https://elroumaissaa-aalam.github.io/QuickStart/",
+      githubUrl: "https://github.com/Elroumaissaa-aalam/QuickStart"
     },
     {
       id: 3,
       title: "Restaurantly",
       image: images.restaurantly,
       technologies: ["HTML", "CSS", "JAVASCRIPT"],
-      liveUrl: "#",
+      liveUrl: "https://ahlamelasseli.github.io/ahlamelasseli_finalproject_dom/",
+      githubUrl: "https://github.com/ahlamelasseli/ahlamelasseli_finalproject_dom.git"
+    },
+  
+    {
+      id: 3,
+      title: "Library",
+      image: images.library,
+      technologies: ["REACT", "TAILWIND CSS"],
+      liveUrl: "https://book-api-ochre-delta.vercel.app/",
       githubUrl: "https://github.com/ahlamelasseli/ahlamelasseli_finalproject_dom.git"
     },
   ];
@@ -33,11 +42,11 @@ export default function Projects() {
         <p className="section-label">My Work</p>
         <h2 className="section-title">Projects</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projects.map((project) => (
             <div key={project.id} className="bg-darkGreen rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105 group">
               <div 
-                className="h-48 bg-cover bg-center" 
+                className="h-60 bg-top bg-cover  " 
                 style={{backgroundImage: `url(${project.image || '/placeholder.jpg'})`}}
               ></div>
               
@@ -63,7 +72,7 @@ export default function Projects() {
         </div>
       </div>
       
-      <div className="vertical-line">
+      <div className="vertical-line  hidden sm:block">
         <div className="dot top-1/4"></div>
         <div className="dot top-1/2"></div>
         <div className="dot top-3/4"></div>

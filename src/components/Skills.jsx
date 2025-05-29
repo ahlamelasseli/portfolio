@@ -38,7 +38,7 @@ export default function Skills() {
         </div>
       </div>
       
-      <div className="vertical-line">
+      <div className="vertical-line  hidden sm:block">
         <div className="dot top-1/4"></div>
         <div className="dot top-1/2"></div>
         <div className="dot top-3/4"></div>
