@@ -2,7 +2,7 @@ import { useState } from 'react';
 import image from '../constant/image';
 
 
-const Header = () => {
+const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
@@ -32,6 +32,6 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Nav
 
 
