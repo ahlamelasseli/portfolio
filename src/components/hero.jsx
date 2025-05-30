@@ -1,7 +1,9 @@
 import images from "../constant/image";
 
-export default function Hero() {
-    return (
+
+const Hero = () => {
+
+      return (
         <section className="min-h-screen flex lg:flex-row flex-col  items-center relative bg-mediumGreen overflow-hidden pt-20">
             <div className="container">
                 <div className="max-w-2xl">
@@ -36,3 +38,6 @@ export default function Hero() {
         </section>
     );
 }
+
+
+export default Hero;
