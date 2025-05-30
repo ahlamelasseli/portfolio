@@ -10,7 +10,7 @@ import Herosection from './components/Herosection';
 function App() {
   return (
     <>
-      <Header />
+      <Header/>
       <main>
         <Herosection />
         <About />
