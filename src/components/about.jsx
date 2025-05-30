@@ -3,7 +3,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 
 
-const About = () => {
+const AboutPage = () => {
     const skills = [
         {
             name: 'HTML',
@@ -119,4 +119,4 @@ const About = () => {
 
 }
 
-export default About
+export default AboutPage;

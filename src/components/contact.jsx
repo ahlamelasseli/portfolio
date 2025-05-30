@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 
-const Contact = () => {
+const ContactPage = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -134,4 +134,4 @@ const Contact = () => {
 
 }
 
-export default Contact
+export default ContactPage

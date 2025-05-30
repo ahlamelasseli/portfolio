@@ -1,10 +1,10 @@
-// import Footer from './layout/Footer';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/contact';
+
+import AboutPage from './components/About';
+import ContactPage from './components/contact';
+import HeroSection from './components/Herosection';
+import ProjectPage from './components/Projects';
+import SkillsPage from './components/Skills';
 import './index.css';
-import Herosection from './components/Herosection';
 import Footer from './layout/Footer';
 import Nav from './layout/Navbar';
 
@@ -14,11 +14,11 @@ function App() {
       {/* <Header/> */}
       <Nav/>
       <main>
-        <Herosection />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        <HeroSection />
+        <AboutPage/>
+        <SkillsPage />
+        <ProjectPage />
+        <ContactPage />
       </main>
       <Footer />
     </>

@@ -1,7 +1,7 @@
 
 
 
-const Skills = () =>{
+const SkillsPage = () =>{
     const skills = [
     {
       id: 1,
@@ -50,7 +50,7 @@ const Skills = () =>{
   );
 }
 
-export default Skills
+export default SkillsPage
 
 
 
