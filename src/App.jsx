@@ -6,7 +6,7 @@ import Contact from './components/contact';
 import './index.css';
 import Herosection from './components/Herosection';
 import Footer from './layout/Footer';
-import Nav from './layout/Header';
+import Nav from './layout/Navbar';
 
 function App() {
   return (
