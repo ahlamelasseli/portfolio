@@ -48,7 +48,7 @@ export default function Contact() {
                                     <a className="flex gap-2" href="https://github.com/ahlamelasseli">
                                         <FaGithub className="hover:text-[#413933] transition-colors duration-300" /> https://github.com/ahlamelasseli
                                     </a>
-                                    <a className="flex gap-2" href="">
+                                    <a className="flex gap-2" href="mailto:ahlamelasseli@gmail.com">
                                        <MdOutlineMailOutline className="hover:text-[#A27B5C] transition-colors duration-300" />
                                        ahlamelasseli@gmail.com
                                     </a>

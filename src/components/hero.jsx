@@ -2,7 +2,7 @@ import images from "../constant/image";
 
 export default function Hero() {
     return (
-        <section className="min-h-screen flex  items-center relative bg-mediumGreen overflow-hidden pt-20">
+        <section className="min-h-screen flex lg:flex-row flex-col  items-center relative bg-mediumGreen overflow-hidden pt-20">
             <div className="container">
                 <div className="max-w-2xl">
                     <h1 className="text-5xl md:text-6xl font-bold mb-4 text-beige">
