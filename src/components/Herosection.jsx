@@ -1,7 +1,7 @@
 import images from "../constant/image";
 
 
-const Hero = () => {
+const Herosection = () => {
 
       return (
         <section className="min-h-screen flex lg:flex-row flex-col  items-center relative bg-mediumGreen overflow-hidden pt-20">
@@ -40,4 +40,4 @@ const Hero = () => {
 }
 
 
-export default Hero;
+export default Herosection;

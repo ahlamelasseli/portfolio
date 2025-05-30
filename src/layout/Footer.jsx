@@ -1,6 +1,6 @@
 import { IconContext } from "react-icons";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
-import image from "../../constant/image";
+import image from "../constant/image";
 
 const Footer = () => {
   return(
