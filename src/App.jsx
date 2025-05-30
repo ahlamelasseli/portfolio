@@ -1,11 +1,11 @@
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/contact';
 import './index.css';
+import Hero from './components/hero';
 
 function App() {
   return (
