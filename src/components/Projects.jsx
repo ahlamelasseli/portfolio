@@ -1,6 +1,9 @@
 import images from "../constant/image";
-export default function Projects() {
-  const projects = [
+
+
+const Projects = () => {
+
+    const projects = [
     {
       id: 1,
       title: "EasyFolio",
@@ -80,6 +83,10 @@ export default function Projects() {
     </section>
   );
 }
+
+
+
+export default Projects
 
 
 

@@ -1,7 +1,9 @@
 import { FaBootstrap, FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact, FaSass } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
-export default function About() {
+
+
+const About = () => {
     const skills = [
         {
             name: 'HTML',
@@ -50,8 +52,7 @@ export default function About() {
 
         }
     ];
-
-    return (
+        return (
         <section id="about" className="section relative">
             <div className="container">
                 <p className="section-label">About Me</p>
@@ -115,4 +116,7 @@ export default function About() {
             </div>
         </section>
     );
+
 }
+
+export default About

@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import image from '../../constant/image';
 
-export default function Header() {
+
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  return (
-    <header className="fixed top-0 left-0 right-0 py-4 z-50 bg-mediumGreen">
+
+  return(
+       <header className="fixed top-0 left-0 right-0 py-4 z-50 bg-mediumGreen">
       <div className="container flex justify-between items-center">
         <img src={image.logo} alt="" className='w-[6vw]' />
         <nav className={`flex gap-8 md:static md:flex md:items-center ${isMenuOpen
@@ -27,9 +29,9 @@ export default function Header() {
         </button>
       </div>
     </header>
-  );
+  )
 }
 
-
+export default Header
 
 

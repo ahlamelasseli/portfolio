@@ -2,11 +2,9 @@ import { IconContext } from "react-icons";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import image from "../../constant/image";
 
-
-
-export default function Footer() {
-  return (
-    <footer className="bg-mediumGreen py-12">
+const Footer = () => {
+  return(
+        <footer className="bg-mediumGreen py-12">
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center">
                                 <img src={image.logo} alt="" className='w-[6vw]' />
@@ -35,9 +33,10 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
 
+export default Footer
 
 
 

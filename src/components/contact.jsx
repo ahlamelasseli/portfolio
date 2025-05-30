@@ -5,7 +5,8 @@ import { BiWorld } from "react-icons/bi";
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 
-export default function Contact() {
+
+const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -29,7 +30,7 @@ export default function Contact() {
         );
     };
 
-    return (
+        return (
         <section id="contact" className="section relative">
             <div className="container">
                 <p className="section-label">Get In Touch</p>
@@ -130,4 +131,7 @@ export default function Contact() {
             </div>
         </section>
     );
+
 }
+
+export default Contact

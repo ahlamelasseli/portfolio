@@ -1,5 +1,8 @@
-export default function Skills() {
-  const skills = [
+
+
+
+const Skills = () =>{
+    const skills = [
     {
       id: 1,
       title: "Front-End",
@@ -47,6 +50,7 @@ export default function Skills() {
   );
 }
 
+export default Skills
 
 
 
